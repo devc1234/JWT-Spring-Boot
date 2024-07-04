@@ -11,10 +11,15 @@ Role refers to a group of permissions of the authenticated user.
 Creating a Basic Spring Application
 Before moving to the configuration of the Spring Security framework, let’s create a basic Spring web application. For this, we can use a Spring Initializr and generate a template project. For a simple web application, only a Spring web framework dependency is enough:
 
+
+
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 </dependencies>
+
+
+
 Once we have created the project, we can add a simple REST controller to it as follows:
